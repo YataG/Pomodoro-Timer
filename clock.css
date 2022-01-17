@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap');
+
+/* :root {
+  --clock-element-width-height: 240px;
+} */
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2f3a8f;
+  font-family: 'Moon Dance', cursive;
+}
+.heading {
+  color: #fe7e6d;
+  font-size: 50px;
+}
+.row {
+  width: 100%;
+}
+
+.timer {
+  color: #ccd1e4;
+  text-align: center;
+  font-size: 50px;
+  width: 20rem;
+  height: 20rem;
+  border: 10px solid #fe7e6d;
+  border-radius: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#minutes {
+  font-size: 40px;
+  text-align: center;
+  display: flex;
+  /* justify-content: right;
+  align-items: center; */
+  border-left: 10rem;
+}
+
+#seconds {
+  font-size: 40px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-play,
+.fa-redo-alt {
+  color: #fe7e6d;
+  border: 2px solid transparent;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+.fa-play:hover,
+.fa-redo-alt:hover {
+  color: #fe7e6d;
+  border: 2px solid #feece9;
+  transition: 0.3s ease;
+}
+.show_message {
+  display: block;
+  padding: 1rem 0;
+  color: #fe7e6d;
+  background: #feece9;
+  border-radius: 0.5rem;
+  transition: 0.5s ease;
+  font-size: 30px;
+}
+
+input {
+  transition: 0.5s ease-in-out;
+  margin: 10px 0;
+  font-size: 18px;
+  padding: 5px;
+  background: rgba(0, 0, 0, 0.11);
+  border: none;
+  color: #eee;
+}
+
+.focusLabel {
+  font-size: 22px;
+  color: #fe7e6d;
+}
+
+.breakLabel {
+  font-size: 22px;
+  color: #fe7e6d;
+}
+
+#values {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  max-width: 370px;
+  margin: 35px auto 0px;
+}
+
+.updateBtn {
+  background: #fe7e6d;
+  width: 100%;
+  margin: 5px 0;
+  color: #feece9;
+  border: 1px solid #fac7c72a;
+  font-size: 22px;
+}
+/* .clock svg {
+  width: var(--clock-element-width-height);
+  height: var(--clock-element-width-height);
+}
+.progress-ring,
+.static-ring {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.progress-ring__circle {
+  transition: 0s;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+  stroke: rgb(253, 143, 17);
+  z-index: 2;
+}
+
+.static-ring__circle {
+  stroke: #fac7c72a;
+} */
